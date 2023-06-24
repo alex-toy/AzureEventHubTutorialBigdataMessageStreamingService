@@ -14,7 +14,7 @@ namespace ReceiveEvent
         private const string eventHubName = "eventhub1";
 
         private const string blobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=alexeiappstore;AccountKey=ZD/1Fbx1Ef5UCp7nlX/0RITsS82/ymx9n/8v48Q9YoQmk16fAoxcdOBQCOnl+qiZBvswOEp57FbH+AStGvmjpg==;EndpointSuffix=core.windows.net";
-        private const string blobContainerName = "data";
+        private const string blobContainerName = "checkpoints";
 
         static async Task Main()
         {
